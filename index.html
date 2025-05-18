@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor-Clone</title>
+    <!--Google Style Sheet for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--My style Sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <header>
+
+        <div class="navbar">
+
+            <h1><img src="./Images/Logo.png" alt="Tripadvisor Logo" class="logo" />Tripwizer</h1>
+
+            <nav class="nav-links">
+                <button>Discover</button>
+                <button>Trips</button>
+                <button>Review</button>
+                <button>Forums</button>
+            </nav>
+            <div>
+                <button class="Signin-btn">
+                    <h4>Sign in</h4>
+                </button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!--Navbar 2-->
+        <h1 class="navbar2">Where to?</h1>
+    </header>
+    <br>
+    <br>
+    <div class="categories">
+        <button class="nav"><i class="fa-solid fa-house" style="color: #00040a;"></i>Search All</button><br>
+        <button class="nav"><i class="fa-solid fa-bed" style="color: #000205;"></i>Hotels</button><br>
+        <button class="nav"><i class="fa-solid fa-camera" style="color: #00040a;"></i>Things to Do</button><br>
+        <button class="nav"><i class="fa-solid fa-utensils" style="color: #000205;"></i>Restaurants</button><br>
+        <button class="nav"><i class="fa-solid fa-plane" style="color: #010409;"></i>Flights</button><br>
+        <button class="nav"><i class="fa-solid fa-house-chimney-user" style="color: #00040a;"></i>Holidays
+            Homes</button>
+    </div>
+    <br>
+    <br>
+    <!--Search Bar-->
+    <div class="search-bar">
+        <button class="icon-btn">
+            <i class="fa-solid fa-magnifying-glass" style="color: #00040a;"></i>
+        </button>
+        <input type="text" placeholder="Places to go, things to do, hotels..." />
+        <button class="search-btn">Search</button>
+    </div>
+
+    <!--Resort Image-->
+
+    <div class="resort-image">
+
+        <img src="./Images/modern-villa.avif" alt="Resort image" class="resort_image">
+
+        <div class="resort__image__desc">
+            <h2>World's best hotels—chosen by you</h2>
+            <p>From beachside resorts to the most unique stays. See the top 1% of hotelsfrom Traveller's Choice Best of
+                the Best and save your faves.</p>
+            <button class="resort-image__button">Reveal winners</button>
+        </div>
+    </div>
+    <!--Hotels Choice Category-->
+    <br>
+    <br>
+    <div class="travellers_choice">
+        <h2>Stay at the world's top hotels</h2>
+        <p>2025's Travellers's Choice Awards Best of the Best Hotels</p>
+    </div>
+
+    <div class="travellers_choice_gallery">
+        <div class="card">
+            <img src="./Images/caption 1.jpg" alt="World" class="card-image">
+            <div class="caption">World</div>
+        </div>
+
+        <div class="card">
+            <img src="./Images/caption 2.jpg" alt="Luxury" class="card-image">
+            <div class="caption">Luxury</div>
+        </div>
+
+        <div class="card">
+            <img src="./Images/caption 3.jpg" alt="Family-Friendly" class="card-image">
+            <div class="caption">Family-Friendly</div>
+        </div>
+
+        <div class="card">
+            <img src="./Images/caption 4.jpg" alt="One of a kind" class="card-image">
+            <div class="caption">One of a kind</div>
+        </div>
+
+    </div>
+
+    <!-- Thanjavur Category -->
+
+
+    <div class="thanjavur-category">
+
+        <h2>Ways to tour Thanjavur</h2>
+        <p>Book these experiences for a close-up look at Thanjavur.</p>
+
+        <div class="thanjavur-gallery">
+
+            <div><img src="Images/Thanjavur1.jpg" alt="Thanjavur1" class="card-image-thanjavur">
+                <p>Beauty of Big Temple</p>
+                <p>4.9⭐⭐⭐⭐</p>
+            </div>
+            <div><img src="Images/Thanjavur2.jpg" alt="Thanjavur2" class="card-image-thanjavur">
+                <p>History of Maratha Palace</p>
+                <p>4.8⭐⭐⭐⭐</p>
+            </div>
+            <div><img src="Images/Thanjavur3.jpg" alt="Thanjavur3" class="card-image-thanjavur">
+                <p>Serenity of Bell Tower</p>
+                <p>4.7⭐⭐⭐⭐</p>
+            </div>
+            <div><img src="Images/Thanjavur4.jpg" alt="Thanjavur4" class="card-image-thanjavur">
+                <p>Magnificance of Grand Anaicut</p>
+                <p>4.6⭐⭐⭐⭐</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--More To Explore Categories-->
+
+    <div class="more-to-explore-category">
+        <br>
+        <br>
+        <div class="More-to-explore">
+            <h2>More to explore</h2>
+
+            <div class="explore-gallery">
+                <div><img src="Images/Bangkok hotels.jpg" alt="Bangkok" class="card-image-explore">
+                    <p>7 Bangkok hotels that highlight Thailand's architecture</p>
+                </div>
+                <div><img src="Images/Chiang Mai.jpg" alt="Chiang Mai" class="card-image-explore">
+                    <p>3 Perfect days in chiang mai</p>
+                </div>
+                <div><img src="Images/Tokyo city.jpg" alt="Tokyo" class="card-image-explore">
+                    <p>3 days in Tokyo: The perfect Itineary</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--Dream your next trip-->
+
+    <br>
+    <br>
+    <div class="travellers_choice">
+        <h2>Dream Your Next Trip</h2>
+        <p>Weekend getaways from Madurai</p>
+    </div>
+
+    <div class="travellers_choice_gallery">
+        <div class="card">
+            <img src="Images/kovai-kutralam-falls.jpg" alt="Coimbatore" class="card-image">
+            <div class="caption">Coimbatore,India</div>
+        </div>
+
+        <div class="card">
+            <img src="Images/Thiruvalluvar-statue.jpg" alt="Kanyakumari" class="card-image">
+            <div class="caption">Kanyakumari,India</div>
+        </div>
+
+        <div class="card">
+            <img src="Images/upper-bhavani-lake.jpg" alt="Ooty" class="card-image">
+            <div class="caption">Ooty,India</div>
+        </div>
+
+        <div class="card">
+            <img src="Images/photo0jpg.jpg" alt="Rameshwaram" class="card-image">
+            <div class="caption">Rameshwaram,India</div>
+        </div>
+
+    </div>
+
+    <!--Top destinations for your next holiday-->
+
+    <br>
+    <br>
+
+    <div class="travellers_choice">
+        <h2>Dream Your Next Trip</h2>
+        <p>Weekend getaways from Madurai</p>
+    </div>
+
+    <div class="travellers_choice_gallery">
+        <div class="card">
+            <img src="Images/Las Vegas.jpg" alt="Las Vegas" class="card-image">
+            <div class="caption">Las Vegas,NV</div>
+        </div>
+
+        <div class="card">
+            <img src="Images/Reykjavik.jpg" alt="Reykjavik" class="card-image">
+            <div class="caption">Reykjavik,Iceland</div>
+        </div>
+
+        <div class="card">
+            <img src="Images/Rome.jpg" alt="Rome" class="card-image">
+            <div class="caption">Rome,Italy</div>
+        </div>
+
+        <div class="card">
+            <img src="Images/Paris.jpg" alt="Paris" class="card-image">
+            <div class="caption">Paris,France</div>
+        </div>
+
+    </div>
+
+    <!--Top destinations for your next holiday-->
+
+    <br>
+    <br>
+
+    <div class="travellers_choice">
+        <h2>Top destinations for your next holiday</h2>
+        <p>Here's where your fellow travellers are headed</p>
+    </div>
+
+    <div class="travellers_choice_gallery">
+        <div class="card">
+            <img src="Images/Bali.jpg" alt="Bali" class="card-image">
+            <div class="caption">Bali,Indonesia</div>
+        </div>
+
+        <div class="card">
+            <img src="Images/Bangkok.jpg" alt="Bangkok" class="card-image">
+            <div class="caption">Bangkok,Thailand</div>
+        </div>
+
+        <div class="card">
+            <img src="Images/Mumbai.jpg" alt="Mumbai" class="card-image">
+            <div class="caption">Mumbai,India</div>
+        </div>
+
+        <div class="card">
+            <img src="Images/singapore.jpg" alt="singapore" class="card-image">
+            <div class="caption">Singapore,Singapore</div>
+        </div>
+
+    </div>
+
+    <!--Wanderer Category-->
+
+    <br>
+    <br>
+
+    <div class="wanderer-category">
+
+        <div class="bike-girl">
+            <img src="Images/Girl on bike.jpg" alt="Biking girl">
+        </div>
+
+        <div class="right-side">
+
+            <p>Sponsored by <u>Wanderlab</u></p>
+            <h1 class="watch">Watch The Wanderer</h1>
+            <p>Tripadvisor's award-winning travel series,now<br>
+                streaming on Amazon Prime Video</p>
+            <button class="learn">Learn More</button>
+
+
+        </div>
+    </div>
+    <!--Home Rentals Category-->
+    <br>
+    <br>
+
+    <div class="home-rentals-category">
+        <h2>Home Rentals Near You</h2>
+    </div>
+    <div class="home-rentals-section">
+
+        <div class="home-rentals-container">
+
+
+            <div class="rentals-cards">
+                <div class="rentals-text">
+                    <p>
+                        We think you'd enjoy<br>
+                        these homes for a quick<br>
+                        trip out of town.
+                    </p>
+                </div>
+                <div>
+                    <img src="Images/Thrissur.jpg" alt="Rentals in Thrissur Town" class="card-rentals">
+                    <h4>Rentals in Thrissur Town</h4>
+                    <p>4 rentals</p>
+                </div>
+                <div>
+                    <img src="Images/Coimbatore.jpg" alt="Rentals in Coimbatore" class="card-rentals">
+                    <h4>Rentals in Coimbatore</h4>
+                    <p>8 rentals</p>
+                </div>
+                <div>
+                    <img src="Images/Kotagiri.jpg" alt="Rentals in Kotagiri" class="card-rentals">
+                    <h4>Rentals in Kotagiri</h4>
+                    <p>11 rentals</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Awards Category-->
+
+    <br>
+
+    <div class="awards-category">
+        <div class="awards-category-x">
+            <div class="awards-desc">
+                <h2><img src="./Images/Logo.png" alt="Tripadvisor Logo" class="logo" /><br>Traveller's Choice<br> Awards
+                    Best of <br>the Best</h2>
+                <p>Among our top 1% of places, stays,<br> eats, and experiences—decided by<br> you.
+                </p>
+                <button class="awards">See the winners</button>
+            </div>
+
+            <div>
+                <img src="Images/solo-traveller1.jpg" alt="Solo Traveller" class="solo-traveller">
+            </div>
+        </div>
+
+    </div>
+    <!--Footer-->
+
+    <div class="footer">
+        <div class="footer-sub">
+
+            <div class="footer-h1">
+                <h4>About Tripwizer</h4>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust & Safety</p>
+                <p>Contact us</p>
+                <p>Accessibility Statement</p>
+                <p>Tripadvisor Technology <br>Blog</p>
+
+            </div>
+
+            <div class="footer-h2">
+                <h4>Explore</h4>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join</p>
+                <p>Travellers' Choice</p>
+                <p>Help Centre</p>
+                <p>Travel Stories</p>
+            </div>
+
+            <div class="footer-h3">
+                <h4>Do Business With Us</h4>
+                <p>Owners & DMO/CVB</p>
+                <p>Business Advantage</p>
+                <p>Sponsored Placements</p>
+                <p>Access our Content API</p>
+                <h5>Get The App</h5>
+                <p>iPhone App</p>
+                <p>Android App</p>
+            </div>
+
+            <div class="footer-h4">
+                <h4>Tripwizer Sites</h4>
+                <p>Book tours and attraction tickets on <u>Viator</u></p>
+
+            </div>
+        </div>
+        <div class="footer-h5">
+            <img src="Images/Logo.png" alt="logo" class="footer-logo">
+            <h5>&copy; 2025 Tripwizer LLC All rights reserved</h5>
+            <p class="footer-last"><u>Termsof use</u><br><u>Privacy and Cookies Statement</u><br><u>Cookie consent</u><br><u>Site Map</u><br><u>How the site works</u><br><u>Contact Us</u></p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
